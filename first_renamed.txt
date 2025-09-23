@@ -6,3 +6,6 @@ git diff --staged command compares previous commit with the present staging area
 
 untracked files we cannot directly commit.untracked file specifically we need to add in stagging area.
 git commit -a -m command is used to skip stagging area and directly add commit to file
+ git mv first.txt first_renamed.txt comand is used to rename a file
+ git rm first.txt command is used to remove a file
+
