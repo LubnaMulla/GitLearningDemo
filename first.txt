@@ -3,3 +3,6 @@ I want this to go into commit 2
 
 note- git diff command compares stagging area and working directory.
 git diff --staged command compares previous commit with the present staging area
+
+untracked files we cannot directly commit.untracked file specifically we need to add in stagging area.
+git commit -a -m command is used to skip stagging area and directly add commit to file
