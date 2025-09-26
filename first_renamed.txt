@@ -8,4 +8,23 @@ untracked files we cannot directly commit.untracked file specifically we need to
 git commit -a -m command is used to skip stagging area and directly add commit to file
  git mv first.txt first_renamed.txt comand is used to rename a file
  git rm first.txt command is used to remove a file
+git rm --cached command is used to untrack the file
+git clone url  name of folderwe need to name
+git status
+git add --a command is used bring the file in stagging area
+git add .a is used bring the file in stagging area
+git log command shows all the changes done history
+git rm -rf file/repository name command is used to delete the file or repository
+git init command is used to create or initiate a new repository
 
+git commit -m "statement to write" command is used to write comment of changes done or in otherwords is used to commit the file
+git log -p comand is used to show what is removed and added along with commit
+git log -p -n command is similar as above where n indicates number of commit example n=3 shows 3 commits along with diff
+git log --stat command shows in short summary what all happened in commit
+git log --pretty=oneline command displays all commit in one line
+git log --pretty=short command is used to display commit in short
+author in git is the one who made the file
+git log --pretty=long command is used to display commit in detail
+git log --since=2.days command shows work done in 2 days(other commands 2.years, 2.months)
+git log --pretty=format:"%h --%an" command is used to display where (%h means abbreviated hash commit, an is author name). there are many other abbreviations like ae author email n so on.refer git documentation for more detail.
+git commit --amend
