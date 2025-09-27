@@ -28,3 +28,10 @@ git log --pretty=long command is used to display commit in detail
 git log --since=2.days command shows work done in 2 days(other commands 2.years, 2.months)
 git log --pretty=format:"%h --%an" command is used to display where (%h means abbreviated hash commit, an is author name). there are many other abbreviations like ae author email n so on.refer git documentation for more detail.
 git commit --amend
+
+creating git hub account:
+after creating git hub account go to bash then type git remoteadd origin comand copy paste from git hub and enter
+step 2 again git remote n enter it will show as origin
+step 3 git remote v it will show fetch and pull permission given.
+then create shl key to push record in repository of github
+
